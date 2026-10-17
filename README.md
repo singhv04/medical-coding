@@ -5,6 +5,7 @@
 | `docs/ICD10_Coding_Approach.pdf` | 2-page approach: multi-agent L1/L2/L3 coding with beam routing |
 | `docs/make_approach_pdf.py` | Regenerates the PDF (`pip install reportlab`, then `python3 docs/make_approach_pdf.py docs/ICD10_Coding_Approach.pdf`) |
 | `docs/WHO_ICD10_Data_Structure.md` | How the WHO data is parsed and structured, every output field, and the commands to rebuild and verify it |
+| `docs/brainstorming.md` | Working notes: papers read (arXiv 2609.13806) and proposed design ideas |
 | `data/who-icd10/` | WHO ICD-10 2019 knowledge base, plus the script that downloads and builds it. See its README |
 
 Rebuild the knowledge base from scratch (standard-library Python, about 10 s):
